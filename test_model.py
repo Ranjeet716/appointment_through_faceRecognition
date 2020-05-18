@@ -3,7 +3,8 @@ import os
 import numpy as np
 import recognizer as r
 
-#just to check Whether our recognizer work or not
+#just to check Whether our recognizer work or not so we import our recognizer module inside our test program  as r and to check
+#module is imported successfully or not.
 r.check()
 
 test_img=cv2.imread('TestImages/frame0.jpg')
